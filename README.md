@@ -4,3 +4,4 @@ This application search for the face of driver from the model trained which has 
 If the person is authenticated, he is allowed to start the engine and drive the vehicle, while driving this application monitors the driver’s facial expression for drowsiness. Drowsiness is detected when the driver yawns i.e. if he has opened is mouth wide open for few seconds, or when the driver closes his eyes for more than few seconds then it is assumed as drowsiness.
 When ever the drowsiness is detected in driver the Alarm beeps indicating that he needs to stop driving and take a Break. 
 
+This project was done with the help of Haar cascades to Authenticate the person and Dlib shape_predictor to detect the drowsiness
